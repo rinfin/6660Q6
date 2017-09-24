@@ -1,0 +1,17 @@
+---
+title: "Q6(2)"
+author: "jenny shen"
+date: "9/24/2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+yrand=function(n){
+    yrand<-log(-log(1-runif(n)))
+    return(yrand)
+}
+```
